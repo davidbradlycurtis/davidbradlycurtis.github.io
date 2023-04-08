@@ -3,8 +3,10 @@
 @font-face {
 
     /* Imports non-google font */
-    font-family: "Kalligraphia";
-    src: url("../fonts/Kalligraphia-D-OT_25803.ttf");
+    /* font-family: "Kalligraphia";
+    src: url("../fonts/Kalligraphia-D-OT_25803.ttf"); */
+    font-family: "Rosmatika";
+    src: url("../fonts/RosmatikaRegular-BWA45.ttf");
 
 }
 
@@ -53,7 +55,7 @@ a:hover {
 
 .callout-container {
     height: 100vh;
-    background-image: url('../images/collage.jpg');
+    background-image: url('../images/splash.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -77,7 +79,7 @@ a:hover {
 /* background image settings */
 
 .gigs-container {
-    background-image: url("../images/live.jpg");
+    background-image: url("../images/kc_night.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -193,7 +195,7 @@ a:hover {
 /* sets font type for link items in mobile nav */
 
 .navbar a {
-    font-family: "Kalligraphia", sans-serif;
+    font-family: "Rosmatika", sans-serif;
 }
 
 /*alterations made to Bootstraps navbar-brand class for project specific navbar set up on mobile */
@@ -280,7 +282,7 @@ a:hover {
 /* sets font for section titles */
 
 .text-title {
-    font-family: "Kalligraphia", sans-serif;
+    font-family: "Rosmatika", sans-serif;
 }
 
 /* basic font settings */
@@ -472,7 +474,7 @@ video {
 /* basic font settings */
 
 .lead.social-text {
-    font-family: "Kalligraphia", sans-serif;
+    font-family: "Rosmatika", sans-serif;
     font-size: 35px;
     color: white;
     text-decoration: underline;
@@ -600,7 +602,7 @@ input .email-box {
     .navbar-default .navbar-nav>li>a {
         transition: text-decoration 0.5s ease-in-out;
         font-size: 35px;
-        font-family: "Kalligraphia", sans-serif;
+        font-family: "Rosmatika", sans-serif;
         color: white;
     }
     
